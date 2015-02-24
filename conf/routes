@@ -1,0 +1,8 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+GET     /services/:serviceId/cumulative_total_users/:interval						controllers.User.cumulativeTotalUsers(serviceId: String, interval: String)
+GET     /services/:serviceId/cumulative_total_users_download/:interval				controllers.User.cumulativeTotalUsersDownload(serviceId: String, interval: String)
+GET     /services/:serviceId/retention_rate/:interval								controllers.RetentionRate.variation(serviceId: String, interval: String)
+

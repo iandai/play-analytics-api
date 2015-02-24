@@ -1,0 +1,17 @@
+conf/application.conf
+fabfile.pyc
+project/project
+project/target
+target
+logs/*
+tmp*
+.history
+dist
+/.idea
+/*.iml
+/out
+/.idea_modules
+/.classpath
+/.project
+/RUNNING_PID
+/.settings
